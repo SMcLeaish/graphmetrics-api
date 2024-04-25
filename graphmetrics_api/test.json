@@ -1,0 +1,30 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Investor A",
+      "attributes": {
+        "type": "Investor"
+      }
+    },
+    {
+      "id": 2,
+      "label": "Investor B",
+      "attributes": {
+        "type": "Investor"
+      }
+    },
+    {
+      "id": 3,
+      "label": "Investor C",
+      "attributes": {
+        "type": "Investor"
+      }
+    }
+  ],
+  "edges": [],
+  "directed": false,
+  "transform": {
+    "Project A": ["Investor A", "Investor B", "Investor C"]
+  }
+}
