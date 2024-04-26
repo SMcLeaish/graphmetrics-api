@@ -23,6 +23,7 @@ class Edge(BaseModel):
 
     source: str
     target: str
+    label: Optional[str] = None
     weight: Optional[float] = 1.0
 
 

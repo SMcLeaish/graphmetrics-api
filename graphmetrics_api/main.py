@@ -6,8 +6,8 @@ from typing import Any
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
-from .models import GraphInput
-from .graph import construct_graph
+from graphmetrics_api.models import GraphInput
+from graphmetrics_api.graph import construct_graph
 
 app = FastAPI()
 
