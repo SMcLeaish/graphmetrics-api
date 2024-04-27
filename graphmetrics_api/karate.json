@@ -631,6 +631,10 @@
             "label": ""
         }
     ],
-    "directed": false
+    "directed": false,
+    "associate": {
+        "Project A": ["3", "8", "12", "14"],
+        "Project B": ["12", "17", "18", "20"]
+    }
 }
 

@@ -11,7 +11,7 @@ class Node(BaseModel):
     Defines the node class
     """
 
-    id: int
+    id: str 
     label: Optional[str] = None
     attributes: Dict[str, Any] = {}
 
@@ -35,6 +35,4 @@ class GraphInput(BaseModel):
     nodes: Optional[List[Node]] = []
     edges: List[Edge]
     directed: bool = False
-    transform: Optional[Dict[str, List[str]]] = Field(
-        default=None,
-    )
+    associate: Optional[Dict[str, List[str]]] = None
