@@ -3,7 +3,7 @@ This module contains the FastAPI application that serves as the API
 endpoint for the graph construction and metrics calculation.
 """
 from typing import Any
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 from graphmetrics_api.models import GraphInput
